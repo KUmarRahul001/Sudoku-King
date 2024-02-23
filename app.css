@@ -36,24 +36,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent; /* For WebKit-based browsers */
-    -moz-user-select: none; /* For Firefox */
-    -ms-user-select: none; /* For Internet Explorer/Edge */
-    user-select: none; /* For non-WebKit-based browsers */
+    -webkit-tap-highlight-color: transparent;
 }
-
-
 
 body {
     font-family: "Potta One", cursive;
     /* height: 100vh; */
     background-color: var(--bg-body);
     overflow-x: hidden;
-    -webkit-user-select: all; /* For Safari and Safari on iOS */
-    user-select: all; /* For most browsers */
+    user-select: none;
 }
-
-
 
 input {
     font-family: "Potta One", cursive;
